@@ -1,0 +1,26 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
++nc64bit
++gui
+-gui
+-MESSAGES
++EMGRLOG
+ncverilog.log
+-XLSTIME
+1404714326
+-XLKEEP
+-XLMODE
+./INCA_libs/irun.lnx8664.10.20.nc
+-RUNMODE
+-CDSLIB
+./INCA_libs/irun.lnx8664.10.20.nc/cds.lib
+-HDLVAR
+./INCA_libs/irun.lnx8664.10.20.nc/hdl.var
+-XLNAME
+ncverilog
+-XLVERSION
+"TOOL:	ncverilog	10.20-s131"
+-XLNAME
+./INCA_libs/irun.lnx8664.10.20.nc/set-gw-secehcp1.csit.rmit.edu.au_18962

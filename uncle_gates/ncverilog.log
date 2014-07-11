@@ -1,0 +1,220 @@
+ncverilog(64): 10.20-s131: (c) Copyright 1995-2013 Cadence Design Systems, Inc.
+TOOL:	ncverilog	10.20-s131: Started on Jul 07, 2014 at 16:25:26 EST
+ncverilog
+	+nc64bit
+	+gui
+	-access
+	rwc
+	-f netlist_files.f
+		./netlist/cds_globals.v
+		./netlist/nfet_b.v
+		./netlist/pfet_b.v
+		./netlist/inv.v
+		./netlist/inv4x.v
+		./netlist/th12.v
+		./netlist/th12b.v
+		./netlist/th13.v
+		./netlist/th14.v
+		./netlist/th22.v
+		./netlist/th22r.v
+		./netlist/th22s.v
+		./netlist/th23.v
+		./netlist/th23w2.v
+		./netlist/th24.v
+		./netlist/th24comp.v
+		./netlist/th24w2.v
+		./netlist/th24w22.v
+		./netlist/th33.v
+		./netlist/th33r.v
+		./netlist/th34.v
+		./netlist/th34w2.v
+		./netlist/th34w3.v
+		./netlist/th34w22.v
+		./netlist/th34w32.v
+		./netlist/th44.v
+		./netlist/th44w3.v
+		./netlist/th44w22.v
+		./netlist/th44w322.v
+		./netlist/th44w322a.v
+		./netlist/th54w22.v
+		./netlist/th54w32.v
+		./netlist/th54w322.v
+		./netlist/thand0.v
+		./netlist/thxor0.v
+		./netlist/thxor0n.v
+		./ncl_simlib_ref.v
+		./stimulus_gen.v
+		./tb_uncle_gates.v
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /home/apps/cadence/INCISIV102/tools/inca/files/ncsimrc
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm tb_uncle_gates.clk tb_uncle_gates.error_cnt tb_uncle_gates.f tb_uncle_gates.gnt tb_uncle_gates.line_num tb_uncle_gates.req tb_uncle_gates.rsb tb_uncle_gates.rst tb_uncle_gates.signal_en tb_uncle_gates.stm_value tb_uncle_gates.y tb_uncle_gates.y_ref
+Created probe 1
+ncsim> 
+ncsim> 
+ncsim> run 100us
+ncsim: *W,VFOPTW: File output.txt being opened by Always stmt (file: ./tb_uncle_gates.v, line: 272 in worklib.tb_uncle_gates [module]) has been opened earlier.
+ncsim: *W,VFOPTW: File output.txt being opened by Always stmt (file: ./tb_uncle_gates.v, line: 272 in worklib.tb_uncle_gates [module]) has been opened earlier.
+ncsim: *W,VFOPTW: File output.txt being opened by Always stmt (file: ./tb_uncle_gates.v, line: 272 in worklib.tb_uncle_gates [module]) has been opened earlier.
+ncsim: *W,VFOPTW: File output.txt being opened by Always stmt (file: ./tb_uncle_gates.v, line: 272 in worklib.tb_uncle_gates [module]) has been opened earlier.
+ncsim: *W,VFOPTW: File output.txt being opened by Always stmt (file: ./tb_uncle_gates.v, line: 272 in worklib.tb_uncle_gates [module]) has been opened earlier.
+ncsim: *W,VFOPTW: File output.txt being opened by Always stmt (file: ./tb_uncle_gates.v, line: 272 in worklib.tb_uncle_gates [module]) has been opened earlier.
+ncsim: *W,VFOPTW: File output.txt being opened by Always stmt (file: ./tb_uncle_gates.v, line: 272 in worklib.tb_uncle_gates [module]) has been opened earlier.
+ncsim: *W,VFOPTW: File output.txt being opened by Always stmt (file: ./tb_uncle_gates.v, line: 272 in worklib.tb_uncle_gates [module]) has been opened earlier.
+ncsim: *W,VFOPTW: File output.txt being opened by Always stmt (file: ./tb_uncle_gates.v, line: 272 in worklib.tb_uncle_gates [module]) has been opened earlier.
+<< Starting the Simulation >>
+data = 000
+data = 001
+data = 011
+data = 111
+data = 000
+data = 001
+data = 101
+data = 111
+data = 000
+data = 010
+data = 011
+data = 111
+data = 000
+data = 010
+data = 110
+data = 111
+data = 000
+data = 100
+data = 101
+data = 111
+data = 000
+data = 100
+data = 110
+data = 111
+data = 000
+data = 011
+data = 111
+data = 000
+data = 110
+data = 111
+data = 000
+data = 101
+data = 111
+data = 000
+data = 111
+data = 111
+data = 110
+data = 100
+data = 000
+data = 111
+data = 110
+data = 010
+data = 000
+data = 111
+data = 101
+data = 100
+data = 000
+data = 111
+data = 101
+data = 001
+data = 000
+data = 111
+data = 011
+data = 010
+data = 000
+data = 111
+data = 011
+data = 001
+data = 000
+data = 111
+data = 100
+data = 000
+data = 111
+data = 001
+data = 000
+data = 111
+data = 010
+data = 000
+data = 111
+data = 000
+data = 000
+data = 001
+data = 011
+data = 111
+data = 000
+data = 001
+data = 101
+data = 111
+data = 000
+data = 010
+data = 011
+data = 111
+data = 000
+data = 010
+data = 110
+data = 111
+data = 000
+data = 100
+data = 101
+data = 111
+data = 000
+data = 100
+data = 110
+data = 111
+data = 000
+data = 011
+data = 111
+data = 000
+data = 110
+data = 111
+data = 000
+data = 101
+data = 111
+data = 000
+data = 111
+data = 111
+data = 110
+data = 100
+data = 000
+data = 111
+data = 110
+data = 010
+data = 000
+data = 111
+data = 101
+data = 100
+data = 000
+data = 111
+data = 101
+data = 001
+data = 000
+data = 111
+data = 011
+data = 010
+data = 000
+data = 111
+data = 011
+data = 001
+data = 000
+data = 111
+data = 100
+data = 000
+data = 111
+data = 001
+data = 000
+data = 111
+data = 010
+data = 000
+data = 111
+data = 000
+<< Finishing the Simulation >>
+TEST RESULT = PASS
+Simulation stopped via $stop(1) at time 1615 NS + 2
+ncsim> ^C
+ncsim> ^C
+ncsim> ^C
+ncsim> ^C
+ncsim> ^C
+ncsim> ...Regained control from SimVision
+-------------------------------------
+TOOL:	ncverilog	10.20-s131: Exiting on Jul 07, 2014 at 16:37:24 EST  (total: 00:11:58)
